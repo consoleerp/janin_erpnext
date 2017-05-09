@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include janin_erpnext *.css
+recursive-include janin_erpnext *.csv
+recursive-include janin_erpnext *.html
+recursive-include janin_erpnext *.ico
+recursive-include janin_erpnext *.js
+recursive-include janin_erpnext *.json
+recursive-include janin_erpnext *.md
+recursive-include janin_erpnext *.png
+recursive-include janin_erpnext *.py
+recursive-include janin_erpnext *.svg
+recursive-include janin_erpnext *.txt
+recursive-exclude janin_erpnext *.pyc
