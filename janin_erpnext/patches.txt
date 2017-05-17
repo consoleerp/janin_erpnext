@@ -1,0 +1,1 @@
+janin_erpnext.patches.doctype.account_name_arabic
