@@ -110,4 +110,11 @@ app_license = "MIT"
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "janin_erpnext.event.get_events"
 # }
-
+fixtures = [{
+	"dt": "Custom Field",
+	"filters": [
+		["name", "in", [
+					# Account Arabic name
+					"Account-account_name_arabic"
+		]]]
+}]
